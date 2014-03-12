@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="RWSApps | ToggleButton | jQuery Plugin : Automatically enable or disable a button, add loading messages, or swap classes - all without the verbose Javascript." />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>RWSApps | ToggleButton | jQuery Plugin</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/schwartzrw/jquery-togglebutton">View on GitHub</a>
+
+          <h1 id="project_title">RWSApps | ToggleButton | jQuery Plugin</h1>
+          <h2 id="project_tagline">Automatically enable or disable a button, add loading messages, or swap classes - all without the verbose Javascript.</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/schwartzrw/jquery-togglebutton/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/schwartzrw/jquery-togglebutton/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h3>
+<a name="dependencies" class="anchor" href="#dependencies"><span class="octicon octicon-link"></span></a>Dependencies</h3>
+
+<p>ToggleButton requires the jQuery library. Please <a href="http://jquery.com/download/">download</a> the jQuery library and include it in the head of your html page.</p>
+
+<h3>
+<a name="default-settings" class="anchor" href="#default-settings"><span class="octicon octicon-link"></span></a>Default Settings</h3>
+
+<p>Below are the default settings for ToggleButton. These settings will be thoroughly explained in the below sub-sections.</p>
+
+<pre><code>&lt;script type="text/javascript" language="javascript"&gt;
+$(function() {
+    $('#btn').ToggleButton({        
+        'loading_msg'   : '',
+        'loading_class' : ''
+    });
+});
+&lt;/script&gt;
+</code></pre>
+
+<h3>
+<a name="basic-implementation" class="anchor" href="#basic-implementation"><span class="octicon octicon-link"></span></a>Basic Implementation</h3>
+
+<p>A basic implementation of ToggleButton using the default settings where all form values are saved globally.</p>
+
+<p>Once a button has been toggled, you can simply execute the toggle again to restore it to the enabled state.</p>
+
+<pre><code>&lt;script type="text/javascript" language="javascript"&gt;
+$(function() {
+    $('#btn').ToggleButton();
+});
+&lt;/script&gt;
+</code></pre>
+
+<p>This can also be used in the onclick event of an input button.</p>
+
+<pre><code>&lt;input type="button" id="btn1" onclick="$(this).ToggleButton();" /&gt;
+</code></pre>
+
+<h3>
+<a name="advanced-example" class="anchor" href="#advanced-example"><span class="octicon octicon-link"></span></a>Advanced Example</h3>
+
+<p>Using the ToggleButton custom setting options, you can specify a custom loading message and/or a custom loading CSS class.</p>
+
+<pre><code>&lt;script type="text/javascript" language="javascript"&gt;
+$(function() {
+    $('#btn').ToggleButton({        
+        'loading_msg'   : 'Loading...',
+        'loading_class' : 'btn-loading'
+    });
+});
+&lt;/script&gt;
+</code></pre>
+
+<p><a href="http://jquery.rwsapps.com/ToggleButton">Browse full documentation site</a>.</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">RWSApps | ToggleButton | jQuery Plugin maintained by <a href="https://github.com/schwartzrw">schwartzrw</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
