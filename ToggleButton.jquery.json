@@ -1,0 +1,41 @@
+{
+    "name": "ToggleButton",
+    "title": "ToggleButton",
+    "description": "Automatically enable or disable a button, add loading messages, or swap classes - all without the verbose Javascript.",
+    "keywords": [
+		"button",
+        "toggle",
+		"loader",
+		"loading",
+		"form"
+    ],
+    "version": "1.0.1",
+    "author": {
+        "name": "RWSApps",
+        "url": "http://jquery.rwsapps.com/ToggleButton"
+    },
+    "maintainers": [
+        {
+            "name": "Ryan Schwartz",
+            "email": "contact@rwsapps.com",
+            "url": "http://jquery.rwsapps.com/"
+        }
+    ],
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/schwartzrw/jquery-togglebutton/blob/master/RWSApps%20MIT.rtf"
+        },
+        {
+            "type": "GNU",
+            "url": "https://github.com/schwartzrw/jquery-togglebutton/blob/master/RWSApps%20GNU.rtf"
+        }
+    ],
+    "bugs": "https://github.com/schwartzrw/jquery-togglebutton/issues",
+    "homepage": "http://jquery.rwsapps.com/ToggleButton",
+    "docs": "http://jquery.rwsapps.com/ToggleButton/documentation",
+    "download": "https://github.com/schwartzrw/jquery-togglebutton",
+    "dependencies": {
+        "jquery": ">=1.5"
+    }
+}
